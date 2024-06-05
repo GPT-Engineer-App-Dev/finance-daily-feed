@@ -17,13 +17,13 @@ const Index = () => {
       </Flex>
 
       {/* Main Headline Section */}
-      <Box bg="gray.100" p={8} textAlign="center">
+      <Box bg="#f3f2ef" p={8} textAlign="center">
         <Heading size="2xl" mb={4}>Main Headline</Heading>
         <Text fontSize="lg">This is the main headline section where the top news story will be featured.</Text>
       </Box>
 
       {/* Featured Articles Section */}
-      <VStack spacing={8} p={8} align="stretch">
+      <VStack spacing={8} p={8} align="stretch" bg="#f3f2ef">
         <Heading size="lg">Featured Articles</Heading>
         <Box bg="white" p={4} shadow="md" borderWidth="1px">
           <Heading size="md">Article 1</Heading>
